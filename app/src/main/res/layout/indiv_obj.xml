@@ -9,11 +9,12 @@
     >
 
     <LinearLayout
-        android:background="@drawable/background"
-        android:padding="5pt"
+        android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:padding="5pt">
 
         <ImageView
             android:id="@+id/indivImg"
@@ -23,6 +24,7 @@
 
         <TextView
             android:id="@+id/indivName"
+            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Great Dodecahedron" />
